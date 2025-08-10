@@ -1,0 +1,11 @@
+<div class="cs-container">
+    <div class="cs-card">
+        <h1>{{ headline() }}</h1>
+        <div class="cs-icon">🚀</div>
+        <h2>{{subheadline()}}</h2>
+        <div class="cs-contact">
+            <span>Contact: </span>
+            <a [href]="'mailto:' + contactEmail()">{{ contactEmail() }}</a>
+        </div>
+    </div>
+</div>
