@@ -10,4 +10,5 @@ export class ComingSoonComponent {
   headline = signal('Brewing Something Legendary!');
   subheadline = signal('Awesomeness Under Construction!');
   contactEmail = signal('soumya.shekhar@soumyadev.in');
+  contactNumber = signal(6201202913)
 }

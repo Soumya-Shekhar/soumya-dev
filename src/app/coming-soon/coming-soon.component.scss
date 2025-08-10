@@ -39,17 +39,29 @@
     letter-spacing: 0.5px;
 }
 
+.cs-mail {
+    margin-top: 1.6rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
 .cs-contact {
     margin-top: 1.6rem;
     font-weight: 500;
     font-size: 1.3rem;
 }
 
-.cs-contact a {
+.cs-contact .mobile {
     color: #3aace2;
     text-decoration: none;
 }
 
-.cs-contact a:hover {
+
+.cs-mail a {
+    color: #3aace2;
+    text-decoration: none;
+}
+
+.cs-mail a:hover {
     text-decoration: underline;
 }

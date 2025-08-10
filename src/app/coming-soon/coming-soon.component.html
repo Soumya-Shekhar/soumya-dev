@@ -3,9 +3,13 @@
         <h1>{{ headline() }}</h1>
         <div class="cs-icon">🚀</div>
         <h2>{{subheadline()}}</h2>
-        <div class="cs-contact">
-            <span>Contact: </span>
+        <div class="cs-mail">
+            <span>Mail: </span>
             <a [href]="'mailto:' + contactEmail()">{{ contactEmail() }}</a>
+        </div>
+        <div class="cs-contact">
+            <span>Contact Number: </span>
+            <span class="mobile">+91 {{ contactNumber() }}</span>
         </div>
     </div>
 </div>
